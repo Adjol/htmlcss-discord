@@ -8,30 +8,39 @@
 /* dimensionamento header*/
 header {
     height: 70vh;
-    background-color: aqua;
+    background-image: url(img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 /* prima sezione con logo login e link principali */
 #top_nav_bar {
-    background-color: yellow;
     height: 15%;
     width: 70%;
     margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px dashed black;
+
 }
 .link_li {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 2;
     justify-content: space-around;
+    font-size: 25px;
+    color: white;
+
 }
 .logo {
     flex-grow: 1;
 }
 .login {
-    flex-grow: 1;
+    margin-left: 150px;
+    padding: 5px;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 50px;
+    
     text-align: right;
 }
 
@@ -42,22 +51,28 @@ header {
 /* inizio foglio style download page */
 
 .main_functions {
-    background-color: blue;
     height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+h1 {
+    font-size: 2.5em;
+}
+p{
+    font-size: 25px;
+    padding: 10% 0;
+}
 .intro_discord {
     min-height: 80%;
     width: 50%;
-    background-color: pink;
+
+    text-align: center;
+    color: white;
 
 }
 
 .server {
-    height: 80vh;
     background-color: white;
     margin-top: 30px;
     display: flex;
@@ -66,16 +81,16 @@ header {
 }
 
 .img_left {
-    background-color: rgb(87, 87, 247);
     width: 40%;
     height: 80%;
+    margin-right: 12%;
 }
 
 .server_description {
-    width: fit-content;
+    max-width: 15%;
     height: 80%;
-    background-color: pink;
-    text-align: center;
+    text-align: left;
+
 
 }
 
@@ -90,11 +105,15 @@ header {
 .img_right {
     width: 30%;
     height: 80%;
-    background-color: pink;
 }
+
+.h1_custom{
+    font-size: 3rem;
+}
+
 .channel_description {
-    background-color: rgb(87, 87, 247);
-    width: 40%;
+    padding-top: 2%;
+    max-width: 20%;
     height: 80%;
 }
 
@@ -107,22 +126,25 @@ header {
     align-items: center;
 }
 .fandom_description {
-    width: 30%;
+    max-width: 20%;
     height: 80%;
-    background-color: pink;
 }
 
 .tecnology {
     height: 100vh;
     background-color: rgb(216, 216, 216);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+
 }
+#p-custom{
+    padding: 0;
+}
+
 .last_img {
     width: 70%;
     height: 80%;
     background-color: rgb(4, 113, 4);
+    margin: auto;
 }
 
 
