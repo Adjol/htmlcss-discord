@@ -1,0 +1,176 @@
+/* stili generali di pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* dimensionamento header*/
+header {
+    height: 70vh;
+    background-color: aqua;
+}
+/* prima sezione con logo login e link principali */
+#top_nav_bar {
+    background-color: yellow;
+    height: 15%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px dashed black;
+}
+.link_li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    justify-content: space-around;
+}
+.logo {
+    flex-grow: 1;
+}
+.login {
+    flex-grow: 1;
+    text-align: right;
+}
+
+
+.link_li li {
+    list-style: none;
+}
+/* inizio foglio style download page */
+
+.main_functions {
+    background-color: blue;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_discord {
+    min-height: 80%;
+    width: 50%;
+    background-color: pink;
+
+}
+
+.server {
+    height: 80vh;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_left {
+    background-color: rgb(87, 87, 247);
+    width: 40%;
+    height: 80%;
+}
+
+.server_description {
+    width: fit-content;
+    height: 80%;
+    background-color: pink;
+    text-align: center;
+
+}
+
+
+.channel {
+    height: 80vh;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_right {
+    width: 30%;
+    height: 80%;
+    background-color: pink;
+}
+.channel_description {
+    background-color: rgb(87, 87, 247);
+    width: 40%;
+    height: 80%;
+}
+
+.fandom {
+    height: 80vh;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fandom_description {
+    width: 30%;
+    height: 80%;
+    background-color: pink;
+}
+
+.tecnology {
+    height: 100vh;
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last_img {
+    width: 70%;
+    height: 80%;
+    background-color: rgb(4, 113, 4);
+}
+
+
+footer {
+    min-height: 65vh;
+    background-color: darkblue;
+}
+
+#footer_container {
+    width: 70%;
+    height: 300px;
+    display: flex;
+    padding-top: 10px;
+    margin: auto;
+    margin-bottom: 5%;
+
+}
+
+.share {
+    height: 100%;
+    background-color: pink;
+    flex-basis: 200px;
+    flex-grow: 2;
+}
+
+.ft_item {
+    height: 100%;
+    flex-basis: 100px;
+    background-color: rgb(16, 203, 16);
+    border: 1px dashed black;
+    flex-grow: 1;
+}
+
+.ft_bottom{
+    background-color: yellow;
+    height: 50px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_btn{
+    height: 100%;
+    width: 120px;
+}
+
+hr{
+    width: 70%;
+    margin: auto;
+    /* padding: 1px; */
+}
