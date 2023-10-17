@@ -22,6 +22,7 @@ header {
     align-items: center;
 
 }
+/* nav bar */
 .link_li {
     display: flex;
     flex-wrap: wrap;
@@ -36,14 +37,12 @@ header {
 }
 .login {
     margin-left: 150px;
-    padding: 5px;
+    padding: 10px;
     font-size: 25px;
     background-color: white;
     border-radius: 50px;
-    
     text-align: right;
 }
-
 
 .link_li li {
     list-style: none;
@@ -52,26 +51,42 @@ header {
 
 .main_functions {
     height: 90%;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 h1 {
     font-size: 2.5em;
 }
+/* stile per tutti i paragrafi */
 p{
     font-size: 25px;
     padding: 10% 0;
 }
+
 .intro_discord {
     min-height: 80%;
     width: 50%;
-
     text-align: center;
     color: white;
+    margin: auto;
 
 }
 
+#btn-first-page {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    background-color: black;
+}
+#btn-first-page div {
+    flex-grow: 1;
+}
+#btn-first-page:nth-of-type(1n+2) {
+    color: white;
+}
+
+
+/* inizio pagine info */
 .server {
     background-color: white;
     margin-top: 30px;
@@ -118,7 +133,7 @@ p{
 }
 
 .fandom {
-    height: 80vh;
+
     background-color: white;
 
     display: flex;
@@ -131,33 +146,40 @@ p{
 }
 
 .tecnology {
-    height: 100vh;
+
     background-color: rgb(216, 216, 216);
     text-align: center;
 
+
+}
+.tecnology h1 {
+    padding-top: 5%;
+}
+.tecnology h2 {
+    padding: 5% 0;
+    font-size: 3em;
 }
 #p-custom{
-    padding: 0;
+    padding: 5%;
+    width: 70%;
+    margin: auto;
 }
 
 .last_img {
-    width: 70%;
-    height: 80%;
-    background-color: rgb(4, 113, 4);
+    width: 100%;
+    height: 90%;
     margin: auto;
 }
 
 
 footer {
-    min-height: 65vh;
-    background-color: darkblue;
+    background-color: #23272a;
 }
 
 #footer_container {
     width: 70%;
-    height: 300px;
+    height: 50%;
     display: flex;
-    padding-top: 10px;
     margin: auto;
     margin-bottom: 5%;
 
@@ -165,18 +187,35 @@ footer {
 
 .share {
     height: 100%;
-    background-color: pink;
     flex-basis: 200px;
     flex-grow: 2;
+}
+
+.share ul {
+    list-style: none;
+}
+
+.share li:first-of-type {
+    color: #687dc5;
 }
 
 .ft_item {
     height: 100%;
     flex-basis: 100px;
-    background-color: rgb(16, 203, 16);
-    border: 1px dashed black;
+    color: white;
     flex-grow: 1;
 }
+
+
+.ft_item ul {
+    list-style: none;
+}
+
+.ft_list li:first-of-type {
+    color: #687dc5;
+}
+
+
 
 .ft_bottom{
     background-color: yellow;
